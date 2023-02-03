@@ -15,6 +15,7 @@ import { styled } from "@mui/material/styles";
 import { Button } from "@mui/material";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faHome } from "@fortawesome/free-solid-svg-icons";
+import Footer from "./Footer";
 
 
 const StyledTableCell = styled(TableCell)(({ theme }) => ({
@@ -96,6 +97,7 @@ const JourneyList = () => {
           </Table>
         </TableContainer>
       </Paper>
+      <Footer />
     </div>
   );
 };

@@ -15,6 +15,7 @@ import { tableCellClasses } from "@mui/material/TableCell";
 import { styled } from "@mui/material/styles";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faHome } from "@fortawesome/free-solid-svg-icons";
+import Footer from "./Footer";
 
 const StyledTableCell = styled(TableCell)(({ theme }) => ({
   [`&.${tableCellClasses.head}`]: {
@@ -89,6 +90,7 @@ const StationList = () => {
           </Table>
         </TableContainer>
       </Paper>
+      <Footer />
     </div>
   );
 };

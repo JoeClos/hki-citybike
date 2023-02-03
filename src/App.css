@@ -33,3 +33,16 @@
     justify-content: space-around;
     align-items: center;
 }
+
+.footer{
+    /* display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem; */
+    text-align: center;
+}
+
+.github-icon{
+    font-size: 28px;
+    color: black;
+}
